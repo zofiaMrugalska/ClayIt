@@ -43,12 +43,32 @@
         </div>
 
 
+
         <!-- navbar burger menu -->
 
         <nav class="lg:hidden">
-            <img class="w-[40px]" src="/ceramic_webpage/burger-menu.png" alt="burger-menu">
+            <img class="burgerMenu w-[40px] cursor-pointer hover:scale-[1.2] transition duration-500 "
+                src="/ceramic_webpage/burger-menu.png" alt="burger-menu">
 
-            <section class=""></section>
+            <img class="cross w-[40px] relative z-50 hidden cursor-pointer hover:scale-[1.2] transition duration-500"
+                src="/ceramic_webpage/close_cross_remove_delete_icon.png" alt="cross-icon">
+
+            <section class="menuResponsive fixed top-0 h-full w-[50%] right-0 opacity-90 bg-black text-white hidden">
+
+
+                <div class=" flex flex-col gap-8 text-center p-8 ">
+
+                    <p>PRODUCTS</p>
+
+                    <p>COLLECTIONS</p>
+
+                    <p>ABOUT US</p>
+
+                    <p>LOG IN</p>
+
+                    <p>CONTACT</p>
+                </div>
+            </section>
 
         </nav>
 
@@ -58,7 +78,8 @@
 
 
 
-    <script src="/dist/app.js"></script>
+    <script src=" /dist/app.js">
+    </script>
 </body>
 
 </html>
