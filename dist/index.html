@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@700&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -14,7 +20,7 @@
 
       <!-- full navbar -->
 
-      <div class="hidden lg:flex gap-8">
+      <div class="hidden lg:flex gap-8 font-cormorant text-[18px]">
         <p>PRODUCTS</p>
 
         <p>COLLECTIONS</p>
@@ -70,7 +76,7 @@
         <section
           class="menuResponsive fixed top-0 h-full w-[50%] right-0 opacity-90 bg-black text-white hidden"
         >
-          <div class="flex flex-col gap-8 text-center p-8">
+          <div class="flex flex-col gap-8 text-center p-8 font-cormorant">
             <p>PRODUCTS</p>
 
             <p>COLLECTIONS</p>
@@ -110,6 +116,16 @@
         </section>
       </nav>
     </nav>
+
+    <!-- product categories div  -->
+    <section>
+      <div
+        class="bg-[url('/ceramic_webpage/photo-sale.png')] w-[250px] h-[400px] bg-center bg-contain bg-no-repeat"
+      >
+        <h1 class="">SALE</h1>
+        <button>see more</button>
+      </div>
+    </section>
 
     <script src=" /dist/app.js"></script>
   </body>
