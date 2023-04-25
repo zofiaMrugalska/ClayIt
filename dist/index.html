@@ -1,22 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <nav class="flex justify-between items-center p-6">
-        <img src="/ceramic_webpage/Clay~It.png" alt="logo">
+      <img src="/ceramic_webpage/Clay~It.png" alt="logo" />
 
-        <!-- full navbar -->
+      <!-- full navbar -->
 
-        <div class="hidden lg:flex gap-8">
+      <div class="hidden lg:flex gap-8">
+        <p>PRODUCTS</p>
+
+        <p>COLLECTIONS</p>
+
+        <p>ABOUT US</p>
+
+        <p>LOG IN</p>
+
+        <p>CONTACT</p>
+      </div>
+
+      <div class="hidden lg:flex gap-4 justify-center items-center">
+        <img
+          class="w-7 h-7"
+          src="/ceramic_webpage/2931190_fit_search_zoom_glass_view_icon.png"
+          alt="search-icon"
+        />
+
+        <img
+          class="w-11 h-11"
+          src="/ceramic_webpage/basket_business_comerce_delivery_shop_icon.png"
+          alt="basket-icon"
+        />
+
+        <img
+          class="w-7 h-7"
+          src="/ceramic_webpage/4213423_active_favorite_heart_like_love_icon.png"
+          alt="heart-icon"
+        />
+
+        <img
+          class="w-8 h-8"
+          src="/ceramic_webpage/4041212_bussiness_communication_conversation_language_media_icon.png"
+          alt="language-icon"
+        />
+      </div>
+
+      <!-- navbar burger menu -->
+
+      <nav class="lg:hidden">
+        <img
+          class="burgerMenu w-[40px] cursor-pointer hover:scale-[1.2] transition duration-500"
+          src="/ceramic_webpage/burger-menu.png"
+          alt="burger-menu"
+        />
+
+        <img
+          class="cross max-w-[25px] sm:max-w-[40px] relative z-50 hidden cursor-pointer hover:scale-[1.2] transition duration-500"
+          src="/ceramic_webpage/close_cross_remove_delete_icon.png"
+          alt="cross-icon"
+        />
+
+        <section
+          class="menuResponsive fixed top-0 h-full w-[50%] right-0 opacity-90 bg-black text-white hidden"
+        >
+          <div class="flex flex-col gap-8 text-center p-8">
             <p>PRODUCTS</p>
 
             <p>COLLECTIONS</p>
@@ -26,60 +80,37 @@
             <p>LOG IN</p>
 
             <p>CONTACT</p>
-        </div>
+          </div>
 
-        <div class="hidden lg:flex gap-4 justify-center items-center ">
-            <img class="w-7 h-7" src="/ceramic_webpage/2931190_fit_search_zoom_glass_view_icon.png" alt="search-icon">
+          <div class="flex justify-center items-center gap-2">
+            <img
+              class="w-7 h-7"
+              src="/ceramic_webpage/white-search_zoom_glass_view_icon (1).png"
+              alt="white-icon-search"
+            />
 
-            <img class="w-11 h-11" src="/ceramic_webpage/4544836_basket_business_comerce_delivery_shop_icon.png"
-                alt="basket-icon">
+            <img
+              class="w-11 h-11"
+              src="/ceramic_webpage/white-basket_business_comerce_delivery_shop_icon (1).png"
+              alt="white-icon-basket"
+            />
 
-            <img class="w-7 h-7" src="/ceramic_webpage/4213423_active_favorite_heart_like_love_icon.png"
-                alt="heart-icon">
+            <img
+              class="w-7 h-7"
+              src="/ceramic_webpage/white-favorite_heart_like_likes_love_icon.png"
+              alt="white-icon-heart"
+            />
 
-            <img class="w-8 h-8"
-                src="/ceramic_webpage/4041212_bussiness_communication_conversation_language_media_icon.png"
-                alt="language-icon">
-        </div>
-
-
-
-        <!-- navbar burger menu -->
-
-        <nav class="lg:hidden">
-            <img class="burgerMenu w-[40px] cursor-pointer hover:scale-[1.2] transition duration-500 "
-                src="/ceramic_webpage/burger-menu.png" alt="burger-menu">
-
-            <img class="cross w-[40px] relative z-50 hidden cursor-pointer hover:scale-[1.2] transition duration-500"
-                src="/ceramic_webpage/close_cross_remove_delete_icon.png" alt="cross-icon">
-
-            <section class="menuResponsive fixed top-0 h-full w-[50%] right-0 opacity-90 bg-black text-white hidden">
-
-
-                <div class=" flex flex-col gap-8 text-center p-8 ">
-
-                    <p>PRODUCTS</p>
-
-                    <p>COLLECTIONS</p>
-
-                    <p>ABOUT US</p>
-
-                    <p>LOG IN</p>
-
-                    <p>CONTACT</p>
-                </div>
-            </section>
-
-        </nav>
-
+            <img
+              class="w-8 h-8"
+              src="/ceramic_webpage/white-communication_conversation_language_media_icon (1).png"
+              alt="white-icon-language"
+            />
+          </div>
+        </section>
+      </nav>
     </nav>
 
-
-
-
-
-    <script src=" /dist/app.js">
-    </script>
-</body>
-
+    <script src=" /dist/app.js"></script>
+  </body>
 </html>
