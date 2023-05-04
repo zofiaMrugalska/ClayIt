@@ -305,7 +305,7 @@
 
     <!-- owners container -->
     <!-- amelia richards -->
-    <section class="mt-[6rem] p-5 lg:p-16 2xl:p-[14rem]">
+    <section class="mt-[6rem] p-5 lg:p-16 2xl:px-[14rem] 2xl:mt-0">
       <div class="md:flex md:gap-[4rem]">
         <div class="flex flex-col justify-center items-center">
           <img
@@ -402,11 +402,24 @@
         </div>
       </div>
 
-      <div class="bg-[url(/ceramic_webpage/bg-form.png')]">
+      <div class="bg-[url('/ceramic_webpage/bg-form.png')] bg-cover">
         <h1>Do you have any questions? Write to us!</h1>
         <form>
           <label for="name">name:</label> <br />
-          <input class="border-2" type="text" />
+          <input class="border-2" type="text" /> <br />
+          <label for="email">email:</label> <br />
+          <input class="border-2" type="email" /> <br />
+          <br />
+
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message:"
+          ></textarea>
+          <br />
+          <input type="submit" value="send" />
         </form>
       </div>
     </section>
