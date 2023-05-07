@@ -355,12 +355,8 @@
     </section>
 
     <!-- question/contact container -->
-    <section class="mt-[4rem]">
-      <div class="hidden">
-        <img src="/ceramic_webpage/questions-section.png" alt="ceramic" />
-      </div>
-
-      <div class="bg-[#D9D9D9]">
+    <section class="mt-[4rem] sm:flex lg:justify-center">
+      <div class="bg-[#D9D9D9] sm:w-[50%] lg:w-[40%] lg:max-h-[600px]">
         <div class="flex flex-col justify-center items-start p-12 gap-5">
           <div>
             <div class="flex gap-[14px] items-center">
@@ -403,16 +399,18 @@
       </div>
 
       <div
-        class="bg-[url('/ceramic_webpage/bg-form.png')] bg-cover flex flex-col justify-center items-center"
+        class="bg-[url('/ceramic_webpage/bg-form.png')] bg-cover flex flex-col justify-center items-center sm:w-[50%] lg:w-[40%]"
       >
         <h1 class="p-8 text-2xl text-center font-montserrat font-semibold">
           Do you have any questions? Write to us!
         </h1>
         <form>
           <label class="font-montserrat" for="name">name:</label> <br />
-          <input class="w-full border-[1px] border-black bg-transparent" type="text" /> <br />
+          <input class="w-full border-[1px] border-black bg-transparent" type="text" required />
+          <br />
           <label class="font-montserrat" for="email">email:</label> <br />
-          <input class="w-full border-[1px] border-black bg-transparent" type="email" /> <br />
+          <input class="w-full border-[1px] border-black bg-transparent" type="email" required />
+          <br />
           <br />
           <textarea
             class="border-[1px] border-black bg-transparent placeholder:text-black placeholder:font-montserrat"
@@ -421,6 +419,7 @@
             cols="40"
             rows="5"
             placeholder="Enter your message:"
+            required
           ></textarea>
           <br />
           <input
